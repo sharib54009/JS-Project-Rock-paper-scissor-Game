@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background: #f4f7fb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 1rem;
+  color: #1f2937;
+}
+
+/* ===== Title ===== */
+h1 {
+  font-size: clamp(2rem, 5vw, 3rem);
+  font-weight: 700;
+  margin-bottom: 3rem;
+  color: #2563eb; /* clean blue accent */
+  letter-spacing: 1px;
+  display: inline;
+  background-color: white;
+  border-radius: 1rem;
+  padding: 1rem;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.06);
+}
+
+/* ===== Choices ===== */
+.choices {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: clamp(1.5rem, 4vw, 4rem);
+  flex-wrap: wrap;
+}
+
+/* Circular choice */
+.choice {
+  height: clamp(120px, 18vw, 180px);
+  width: clamp(120px, 18vw, 180px);
+  border-radius: 50%;
+  overflow: hidden; /* IMPORTANT */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
+
+.choice:hover {
+  transform: translateY(-8px) scale(1.05);
+  cursor: pointer;
+  box-shadow: 0 15px 35px rgba(37,99,235,0.25);
+}
+
+/* PERFECT circular images */
+.choice img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+}
+
+/* ===== Score Board ===== */
+.score-board {
+  display: flex;
+  gap: clamp(2rem, 6vw, 6rem);
+  margin-top: 3rem;
+  padding: 1.5rem 3rem;
+  border-radius: 16px;
+  background: white;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.06);
+  flex-wrap: wrap;
+}
+
+.score {
+  text-align: center;
+}
+
+#user-score,
+#comp-score {
+  font-size: clamp(2.5rem, 7vw, 4rem);
+  font-weight: 700;
+  color: #2563eb;
+}
+
+.score p:last-child {
+  font-size: 1rem;
+  color: #6b7280;
+}
+
+/* ===== Message ===== */
+.msg-container {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+#msg {
+  font-size: clamp(1rem, 3vw, 1.5rem);
+  padding: 1rem 2rem;
+  border-radius: 40px;
+  background: white;
+  color: #2563eb;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
