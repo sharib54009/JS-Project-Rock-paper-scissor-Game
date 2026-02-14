@@ -52,9 +52,7 @@ Rock-Paper-Scissors/
 
 ## 📸 Preview
 
-(Add a screenshot here after deploying)
-
----
+![alt text](image.png)
 
 ## 🧠 Concepts Practiced
 
