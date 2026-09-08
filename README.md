@@ -17,7 +17,7 @@ This project demonstrates DOM manipulation, event handling, game logic implement
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - HTML5
 - CSS3 (Flexbox, Responsive Design)
@@ -25,7 +25,7 @@ This project demonstrates DOM manipulation, event handling, game logic implement
 
 ---
 
-## 🎯 How It Works
+##  How It Works
 
 1. User selects Rock, Paper, or Scissors.
 2. Computer generates a random choice.
