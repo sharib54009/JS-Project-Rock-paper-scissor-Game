@@ -35,7 +35,7 @@ This project demonstrates DOM manipulation, event handling, game logic implement
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 Rock-Paper-Scissors/
 │
@@ -50,11 +50,11 @@ Rock-Paper-Scissors/
 
 ---
 
-## 📸 Preview
+##  Preview
 
 ![alt text](image-1.png) 
 
-## 🧠 Concepts Practiced
+##  Concepts Practiced
 
 - Query Selectors
 - Event Listeners
