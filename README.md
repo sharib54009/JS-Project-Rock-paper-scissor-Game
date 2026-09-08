@@ -65,13 +65,13 @@ Rock-Paper-Scissors/
 
 ---
 
-## 🌍 Live Demo
+##  Live Demo
 
 (Add your GitHub Pages link here)
 
 ---
 
-## 📌 Future Improvements
+##  Future Improvements
 
 - Add sound effects
 - Add reset button
@@ -81,7 +81,7 @@ Rock-Paper-Scissors/
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 Mohammed Sharib  
 AI Engineering Student | Web Development Enthusiast  
